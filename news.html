@@ -112,6 +112,13 @@
       &copy; 2024
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+      const htmlTag = document.getElementById("htmlTag");
+      document.getElementById("switch").addEventListener("click", function () {
+        htmlTag.classList.toggle("dark");
+      });
+    </script>
+
+    <!-- <script src="script.js"></script> -->
   </body>
 </html>
